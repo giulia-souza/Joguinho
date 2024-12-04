@@ -13,10 +13,108 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades">
+      <UniqueIdentifier>{c0610f62-2b4f-4ed5-806e-ecb1111b1dce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens">
+      <UniqueIdentifier>{00294b39-5c05-47c7-bbdf-019fe05e1956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens\Jogador">
+      <UniqueIdentifier>{f8649af6-f7bc-4a30-afb5-ae966046e1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens\Inimigo">
+      <UniqueIdentifier>{7faaf89d-9c95-41cf-8a6a-7a01ae11003e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Inim_Facil">
+      <UniqueIdentifier>{da7e9936-304b-46ba-91e2-3462cb9b7000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Inim_Medio">
+      <UniqueIdentifier>{c193f820-8ae2-4294-a2ee-473f0e5e5880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Chefao">
+      <UniqueIdentifier>{00ebe0f9-2dd4-4f89-9efa-44418c5b1016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Projetil">
+      <UniqueIdentifier>{7e6fbce5-a8c2-48f3-8d8f-d0f3db38f7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Obstaculos">
+      <UniqueIdentifier>{db6c7254-b01a-4ccb-a0e7-fe7daaf3b1f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Obstaculos\Plataforma">
+      <UniqueIdentifier>{53b67fee-7347-451f-91d4-d404af102f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Obstaculos\Obst_Medio">
+      <UniqueIdentifier>{dd1bb8ef-4ef9-4a1d-86f3-a4ee6240f8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Entidades\Obstaculos\Obst_Dificil">
+      <UniqueIdentifier>{07fa8aff-a25f-4d87-abe6-0064fe8ca5e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Math">
+      <UniqueIdentifier>{0022d535-0db7-465a-8d0f-52e9fc24a039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Gerenciadores">
+      <UniqueIdentifier>{bc74a23a-4cec-44bb-81cc-ab89ad8afdfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Gerenciadores\Gerenciador Colisao">
+      <UniqueIdentifier>{806da61a-5ea3-42fd-8774-4f14c592f30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Gerenciadores\Gerenciador Grafico">
+      <UniqueIdentifier>{27e10159-46f8-4eb8-9a53-55a928c99a97}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Jogo.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
+    <ClCompile Include="Gerenciador_Colisoes.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciadores\Gerenciador Colisao</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Entidade.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Personagem.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Jogador.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens\Jogador</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inim_Facil.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Inim_Facil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inim_Medio.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Inim_Medio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Chefao.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens\Inimigo\Chefao</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Inimigo.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Personagens\Inimigo</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Projetil.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Projetil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Obst_Dificil.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Obstaculos\Obst_Dificil</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Obst_Medio.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Obstaculos\Obst_Medio</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Plataforma.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Obstaculos\Plataforma</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Obstaculos.hpp">
+      <Filter>Arquivos de Cabeçalho\Entidades\Obstaculos</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CoordTLh.hpp">
+      <Filter>Arquivos de Cabeçalho\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Gerenciador_Grafico.hpp">
+      <Filter>Arquivos de Cabeçalho\Gerenciadores\Gerenciador Grafico</Filter>
+    </ClInclude>
+    <ClInclude Include="Ente.hpp">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

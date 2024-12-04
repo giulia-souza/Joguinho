@@ -139,22 +139,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ente.h" />
     <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="ListaEntidades.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cavaleiro das Trevas.h" />
-    <ClInclude Include="Entidade.h" />
-    <ClInclude Include="Espinhos.h" />
-    <ClInclude Include="Inimigo.h" />
-    <ClInclude Include="Jogador.h" />
-    <ClInclude Include="Magico.h" />
-    <ClInclude Include="Obstaculo.h" />
-    <ClInclude Include="Personagem.h" />
-    <ClInclude Include="Plataforma.h" />
-    <ClInclude Include="Fogo_Magico.h" />
-    <ClInclude Include="Mini_Orc.h" />
-    <ClInclude Include="Slime.h" />
+    <ClInclude Include="Entidades\Cavaleiro das Trevas.h" />
+    <ClInclude Include="Entidades\Ente.h" />
+    <ClInclude Include="Entidades\Entidade.h" />
+    <ClInclude Include="Entidades\Espinhos.h" />
+    <ClInclude Include="Entidades\Fogo_Magico.h" />
+    <ClInclude Include="Entidades\Inimigo.h" />
+    <ClInclude Include="Entidades\Jogador.h" />
+    <ClInclude Include="Entidades\Magico.h" />
+    <ClInclude Include="Entidades\Mini_Orc.h" />
+    <ClInclude Include="Entidades\Obstaculo.h" />
+    <ClInclude Include="Entidades\Personagem.h" />
+    <ClInclude Include="Entidades\Plataforma.h" />
+    <ClInclude Include="Entidades\Slime.h" />
+    <ClInclude Include="Gerenciador_Colisoes.h" />
+    <ClInclude Include="Lista.h" />
+    <ClInclude Include="ListaEntidades.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

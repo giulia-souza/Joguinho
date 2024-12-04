@@ -16,51 +16,69 @@
     <Filter Include="Arquivos de Cabeçalho\Entidades">
       <UniqueIdentifier>{96e544f7-dc00-488c-bae4-511b82d7a5cc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Gerenciadores">
+      <UniqueIdentifier>{a55911ca-c103-4483-8d9c-ecc247ee4b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho\Listas">
+      <UniqueIdentifier>{ae9f82a1-e239-494b-a86d-f3079a42ea6e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Jogo.cpp">
       <Filter>Arquivos de Origem</Filter>
     </ClCompile>
-    <ClCompile Include="Ente.h">
-      <Filter>Arquivos de Cabeçalho</Filter>
+    <ClCompile Include="ListaEntidades.cpp">
+      <Filter>Arquivos de Origem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Entidade.h">
+    <ClInclude Include="Gerenciador_Colisoes.h">
+      <Filter>Arquivos de Cabeçalho\Gerenciadores</Filter>
+    </ClInclude>
+    <ClInclude Include="Entidades\Cavaleiro das Trevas.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Personagem.h">
+    <ClInclude Include="Entidades\Entidade.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Jogador.h">
+    <ClInclude Include="Entidades\Espinhos.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Inimigo.h">
+    <ClInclude Include="Entidades\Fogo_Magico.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Mini_Orc.h">
+    <ClInclude Include="Entidades\Inimigo.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Cavaleiro das Trevas.h">
+    <ClInclude Include="Entidades\Jogador.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Magico.h">
+    <ClInclude Include="Entidades\Magico.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Fogo_Magico.h">
+    <ClInclude Include="Entidades\Mini_Orc.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Obstaculo.h">
+    <ClInclude Include="Entidades\Obstaculo.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Plataforma.h">
+    <ClInclude Include="Entidades\Personagem.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Slime.h">
+    <ClInclude Include="Entidades\Plataforma.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
     </ClInclude>
-    <ClInclude Include="Espinhos.h">
+    <ClInclude Include="Entidades\Slime.h">
       <Filter>Arquivos de Cabeçalho\Entidades</Filter>
+    </ClInclude>
+    <ClInclude Include="Entidades\Ente.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="Lista.h">
+      <Filter>Arquivos de Cabeçalho\Listas</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaEntidades.h">
+      <Filter>Arquivos de Cabeçalho\Listas</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

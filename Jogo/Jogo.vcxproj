@@ -139,25 +139,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Gerenciador_Colisoes.hpp" />
+    <ClCompile Include="Ente.h" />
     <ClCompile Include="Jogo.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ente.hpp" />
-    <ClInclude Include="Gerenciador_Grafico.hpp" />
-    <ClInclude Include="include\Chefao.hpp" />
-    <ClInclude Include="include\CoordTLh.hpp" />
-    <ClInclude Include="include\Entidade.hpp" />
-    <ClInclude Include="include\Inimigo.hpp" />
-    <ClInclude Include="include\Inim_Facil.hpp" />
-    <ClInclude Include="include\Inim_Medio.hpp" />
-    <ClInclude Include="include\Jogador.hpp" />
-    <ClInclude Include="include\Obstaculos.hpp" />
-    <ClInclude Include="include\Obst_Dificil.hpp" />
-    <ClInclude Include="include\Obst_Medio.hpp" />
-    <ClInclude Include="include\Personagem.hpp" />
-    <ClInclude Include="include\Plataforma.hpp" />
-    <ClInclude Include="include\Projetil.hpp" />
+    <ClInclude Include="Cavaleiro das Trevas.h" />
+    <ClInclude Include="Entidade.h" />
+    <ClInclude Include="Espinhos.h" />
+    <ClInclude Include="Inimigo.h" />
+    <ClInclude Include="Jogador.h" />
+    <ClInclude Include="Magico.h" />
+    <ClInclude Include="Obstaculo.h" />
+    <ClInclude Include="Personagem.h" />
+    <ClInclude Include="Plataforma.h" />
+    <ClInclude Include="Fogo_Magico.h" />
+    <ClInclude Include="Mini_Orc.h" />
+    <ClInclude Include="Slime.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

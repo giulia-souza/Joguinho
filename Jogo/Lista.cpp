@@ -1,83 +1,6 @@
-/*#pragma once
+#include "Listas/Lista.hpp"
 
-#include <iostream>
-
-namespace Listas
-{
-	template <class TL>
-	class Lista
-	{
-	public:
-		template <class TE>
-			class Elemento
-			{
-			private:
-				Elemento<TE>* prox;
-				Elemento<TE>* ant;
-				TE* info;
-
-			public:
-				Elemento()
-				{
-					prox = NULL;
-					ant = NULL;
-					info = NULL;
-				}
-				~Elemento()
-				{
-					prox = NULL;
-					ant = NULL;
-					delete info;
-					info = NULL;
-				}
-
-				void setProx(Elemento<TE>* novoProx)
-				{
-					prox = novoProx;
-				}
-				Elemento<TE>* getProx() const
-				{
-					return prox;
-				}
-
-				void setAnt(Elemento<TE>* novoAnt)
-				{
-					ant = novoAnt;
-				}
-				Elemento<TE>* getAnt() const
-				{
-					return ant;
-				}
-
-				void setInfo(TE* novaInfo)
-				{
-					info = novaInfo;
-				}
-				TE* getInfo() const
-				{
-					return info;
-				}
-			};
-
-	private:
-		Elemento<TL>* cabeca;
-		Elemento<TL>* cauda;
-
-		unsigned int tam;
-
-	public:
-		Lista();
-		~Lista();
-
-		Elemento<TL>* getCabeca() const;
-		TL* operator[](int index);
-		void pushElemento(TL* newInfo);
-		TL* pop(int index);
-		void clear();
-		const unsigned int getTam() const;
-	};
-
-
+namespace Listas {
 	template <class TL>
 	Lista<TL>::Lista()
 	{
@@ -135,6 +58,7 @@ namespace Listas
 			cabeca = elemento;
 			cauda = elemento;
 			tam++;
+			std::cout << "Adicionado" << std::endl;
 			return;
 		}
 
@@ -145,6 +69,7 @@ namespace Listas
 		cauda->setProx(elemento);
 		cauda = elemento;
 		tam++;
+		std::cout << "Adicionado" << std::endl;
 	}
 
 	//Remove elementos da lista com um certo indice
@@ -180,7 +105,7 @@ namespace Listas
 
 	//Remove todos os Elementos da lista
 	template <class TL>
-	void Lista<TL>::clear()
+	void Lista<TL>::limpar()
 	{
 		if (cabeca != NULL)
 		{
@@ -199,10 +124,9 @@ namespace Listas
 		}
 	}
 
-
 	template<class TL>
 	const unsigned int Lista<TL>::getTam() const
 	{
 		return tam;
 	}
-	*/
+}

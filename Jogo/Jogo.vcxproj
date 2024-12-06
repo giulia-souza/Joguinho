@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="Gerenciador_Grafico.cpp" />
     <ClCompile Include="Jogo.cpp" />
+    <ClCompile Include="Lista.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Entidades\Cavaleiro das Trevas.h" />
@@ -157,8 +158,8 @@
     <ClInclude Include="Entidades\Plataforma.h" />
     <ClInclude Include="Entidades\Slime.h" />
     <ClInclude Include="Gerenciadores\Gerenciador_Grafico.hpp" />
-    <ClInclude Include="Lista.h" />
-    <ClInclude Include="ListaEntidades.h" />
+    <ClInclude Include="Listas\Lista.hpp" />
+    <ClInclude Include="Listas\ListaEntidades.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

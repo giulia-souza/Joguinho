@@ -1,4 +1,4 @@
-#pragma once
+/*#pragma once
 
 #include <iostream>
 
@@ -205,3 +205,4 @@ namespace Listas
 	{
 		return tam;
 	}
+	*/

@@ -3,25 +3,27 @@
 
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include "Gerenciadores/Gerenciador_Grafico.hpp"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
+    Gerenciadores::Gerenciador_Grafico gg;
+
     sf::CircleShape shape(100.f);
     shape.setFillColor(sf::Color::Magenta);
 
-    while (window.isOpen())
+    while (gg.janela_aberta())
     {
         sf::Event event;
-        while (window.pollEvent(event))
+        while (gg.getJanela()->pollEvent(event))
         {
             if (event.type == sf::Event::Closed)
-                window.close();
+                gg.fechar();
         }
 
-        window.clear();
-        window.draw(shape);
-        window.display();
+		gg.limpar();
+        gg.getJanela()->draw(shape);
+        gg.mostrar();
     }
 
     return 0;
